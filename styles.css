@@ -1,0 +1,144 @@
+/*
+Font-Family: 'Julius Sans One', Sans-Serif;
+Font-Size: 45px;
+
+Font-Family: 'Monda', Sans-Serif;
+Font-Size: 16px;
+*/
+body {
+	background: linear-gradient(
+		178.6deg,
+		rgb(232, 245, 253) 3.3%,
+		rgb(252, 253, 255) 109.6%
+	);
+}
+
+h1 {
+	font-family: 'Julius Sans One', Sans-Serif;
+	font-size: 48px;
+	text-align: center;
+	color: #00204a;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Julius Sans One', Sans-Serif;
+	font-size: 35px;
+	text-align: center;
+	color: #00204a;
+}
+
+p {
+	font-family: 'Monda', Sans-Serif;
+	font-size: 18px;
+	color: rgb(70, 69, 69);
+	text-align: center;
+	margin: 30px 80px;
+}
+
+img {
+	margin: 0 auto;
+	max-width: 100%;
+	border-radius: 4px;
+	box-shadow: 2px 2px 5px 2px gray;
+	display: block;
+}
+
+a {
+	color: #005792;
+	text-decoration: none;
+}
+
+ul {
+	font-family: 'Monda', Sans-Serif;
+	font-size: 18px;
+	list-style: square;
+	margin-left: 50px;
+}
+
+li {
+	color: rgb(70, 69, 69);
+	margin-left: 30px;
+}
+
+table {
+	font-family: 'Monda', Sans-Serif;
+	font-size: 18px;
+	margin: 30px 30px;
+}
+
+form {
+	font-family: 'Monda', Sans-Serif;
+	font-size: 20px;
+	margin: 30px 30px;
+}
+
+img:hover {
+	opacity: 0.7;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #fdb44b;
+}
+
+.directory {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin-left: 0;
+	margin-block-start: 0;
+}
+
+.tabs {
+	display: inline-block;
+	font-family: 'Julius Sans One', Sans-Serif;
+	font-size: 20px;
+	color: #00bbf0;
+}
+
+.row {
+	text-align: center;
+	display: block;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+/* Clear floats after image containers */
+.row::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+#graph {
+	float: right;
+	margin: 20px 30px;
+	text-align: center;
+	font-family: 'Monda', Sans-Serif;
+	font-size: 14px;
+}
+
+#subscribe {
+	margin: 0px 20px;
+}
+
+#submit {
+	color: white;
+	font-family: 'Monda', Sans-Serif;
+	background-color: #211451;
+	margin: 15px auto;
+	padding: 12px 18px;
+	font-size: 16px;
+	border: 1px solid gray;
+	border-radius: 30px;
+	box-shadow: 0px 4px 4px 0 grey;
+	transition: all 150ms ease-in-out;
+}
+
+#submit:hover {
+	cursor: pointer;
+	background-color: #00bbf0;
+}
